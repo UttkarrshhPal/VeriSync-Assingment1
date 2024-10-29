@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import UserCard from "./components/UserCard";
-import UserModal from "./components/UserModal";
-import SearchBar from "./components/SearchBar";
-import SortOptions from "./components/SortOptions";
+import UserCard from "../src/components/UserCard";
+import UserModal from "../src/components/UserModal";
+import SearchBar from "../src/components/SearchBar";
+import SortOptions from "../src/components/SortOptions";
 
 function App() {
   const [users, setUsers] = useState([]);
